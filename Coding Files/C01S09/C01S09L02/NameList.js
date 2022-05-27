@@ -1,0 +1,13 @@
+import React from ‘react’
+function NameList()
+{
+const names = [ "Dhoni" , "Sachin" , "Virat"];
+return(
+<div>
+<h1> {names[0]} </h1>
+<h1> {names[1]} </h1>
+<h1> {names[2]} </h1>
+</div> 
+)
+}
+export default NameList;
